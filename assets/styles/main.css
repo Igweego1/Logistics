@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+}
+
+img {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-caption {
+    text-align: start;
+    padding-inline: 3rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    margin: auto;
+}
+
+.heading {
+    font-weight: 900;
+}
+
+.heading span {
+    color: #EF5F1F;
+}
+
+.options {
+    height: 8.125rem;
+}
+
+.bg-purple {
+    background-color: #4D148C;
+}
+
+input {
+    width: 25rem;
+    height: 3.75rem;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-inline: 1rem;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: #D9DBDA;
+}
+
+.track-btn {
+    background-color: #FF6200;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-inline: 2.5rem;
+    border: none;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+}
+
+.box path {
+    fill: #000000;
+}
