@@ -5,11 +5,243 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <title>Document</title>
+        <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>Logistics</title>
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #4d148c;">
+      <div class="container-fluid navDiv">
+        <a class="navbar-brand" href="#">      
+                <img class="logoSize" src="./assets/images/logo.png"/>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body offCanbody">
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3 hey">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white hove" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shipping
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Create a Shipment</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Shipping Rates & Delivery Times</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Schedule & Manage Pickups</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Packing & Shipping Supplies</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">International Shipping Guide</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Freight</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item navCustomText" href="#">ALL SHIPPING SERVICES</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tracking
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Advanced Shipment Tracking</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                        <li><a class="dropdown-item" href="#">Manage Your Delivery</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                        <li><a class="dropdown-item" href="#">Manage a Return</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item navCustomText" href="#">ALL TRACKING SERVICES</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Design & Print
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Explore Print Products & Design</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                        <li><a class="dropdown-item" href="#">Browse Services</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item navCustomText" href="#">VISIT NEW MARKETPLACE</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Location
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Drop Off a Package</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item navCustomText" href="#">FIND A LOCATION</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">New Customer Center</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Small Business Center</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">FedEx Service Guide</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Account Management Tools</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">File a Claim</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">Billing & Invoicing</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item navCustomText" href="#">CUSTOMER SUPPORT</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <section class="offCanbody">
+                </section>
+            </div>
+
+            
+        </div>
+    </nav>
+
+    <!-- SECTION FROM B -->
+
     
+
+    <!-- SECTION 1 -->
+
+    <section>
+        <div class="container-fluid section1Container">
+
+        </div>
+    </section>
+
+    <!-- SECTION 2 -->
+
+    <section class="section overflow-hidden">
+      <div class="container-fluid">
+        <div class="row">
+          
+          <div class="col-sm-6 col-md-6">
+            <div class="ms-2">
+              <h2 class="heading1 mt-4">
+                EXPANDED ECOMMERCE CAPABILITIES
+              </h2>
+              <p class="paragraghText mt-5">
+                  Shippers engaged in eCommerce activities can greatly benefit from a single provider of integrated, end-to-end freight
+                  management and contract logistics services to unlock value at every step of their supply chain—from suppliers all the way to
+                  the end customer.
+              </p>
+              <p class="paragraghText">
+                  With the addition of the former Ingram Micro's Commerce &amp; Lifecycle Services and the Shipwire technology platform, we have
+                  further enhanced our eCommerce capabilities and our global footprint to deliver responsive logistics solutions for our
+                  customers.&nbsp;
+              </p>
+              <p class="paragraghText">
+                  We offer end-to-end eCommerce service offerings—from inbound supplier management and warehousing fulfillment to transport and
+                  customs services to last mile and reverse logistics.&nbsp;
+              </p>
+
+            </div>
+           
+          </div>
+
+          <div class="col-sm-6 col-md-6 bg-image"></div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- SECTION 3 -->
+
+    <section class="section overflow-hidden">
+      <div class="container-fluid">
+        <div class="row rowRev">
+          
+          <div class="col-sm-6 col-md-6 bgg-image"></div>
+
+          <div class="col-sm-6 col-md-6">
+            <div class="ms-2">
+              <h2 class="heading1 mt-4">
+              ENGINEERING WINNING SOLUTIONS
+              </h2>
+              <p class="paragraghText mt-3">
+                The partnership between Scuderia Ferrari and CEVA Logistics unites racing and logistics leaders in our drives for excellence. 
+                At CEVA Logistics, we take every step of this partnership, just like behind every race, as the chance to prove our best. We pair
+                passion with excellence. Building on our wealth of experience, we face complex challenges head on and confidently set the course
+                of action to reach beyond our limits, either on or off the track.
+              </p>
+              <p class="paragraghText">
+                As the Official Logistics Partner of Scuderia Ferrari, under multi-year agreement, CEVA Logistics provides all logistics support
+                services for Scuderia Ferrari's presence at Formula One events, the GT racing series and other events. Relying on our leading global
+                network across air, land and sea, the team at CEVA ensures the road and sea shipments for Scuderia Ferrari cars and equipment 
+                to race sites around the world.
+              </p>
+
+              <button type="button" class="btn btn-primary btn-lg btnLearn  mb-2">LEARN MORE</button>
+            </div>
+            
+
+            
+          </div>
+
+        
+        </div>
+      </div>
+    </section>
+
 
 
 
