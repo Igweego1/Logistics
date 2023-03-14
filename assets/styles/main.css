@@ -21,6 +21,11 @@
 .nav-item:hover{
 background-color: #ffffff;
 }
+
+.sidenav .nav-item:hover{
+    background-color: transparent;
+}
+
 .text-white:hover{
     color: #4d148c !important;
 }
@@ -57,7 +62,7 @@ background-color: #ffffff;
 
 /* SECTION 2 $ SECTION 3 */
 .section-2, .section-3 {
-    margin-inline-start: 8rem;
+    margin-inline-start: 10rem;
 }
 .bg-image {
     background-image: url('../images/Employee.png');
@@ -183,16 +188,22 @@ html, body {
 }
 
 .sidenav {
-    width: 8rem;
+    width: 10rem;
     background-color: #4D148C;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-inline-start: 1rem;
+}
+
+.sidenav img {
+    width: 20px;
+    height: 20px;
 }
 
 .main-content {
-    margin-inline-start: 8rem;
+    margin-inline-start: 10rem;
 }
 
 .carousel-container {
